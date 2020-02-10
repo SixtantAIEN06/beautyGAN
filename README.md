@@ -1,5 +1,26 @@
 REF:https://github.com/Honlan/BeautyGAN
 
+額外需要的套件
+pip install imageio
+
+
+
+###使用方式
+
+
+方法1.  main.py --no_makeup <path>  產生多種風格拼接成的jpg，再搭配split.py --type_num <style_num> 切出想要的風格
+       優點:選擇照片、生成合成圖後，可任意點選風格快速預覽
+  
+  
+方法2.  test.py --no_makeup <path> --type_num <style_num> 直接完成一張選取的風格
+       優點:呼叫一次py即可完成，生成單張速度較快
+       缺點:瀏覽風格速度較慢
+
+
+
+
+
+
 # BeautyGAN
 
 ### 简介
